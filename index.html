@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bingo</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="l-container">
+      <div class="l-header header">
+        <div class="header-container">
+          <div class="header-number number1">0</div>
+          <div class="header-number number2">0</div>
+        </div>
+      </div>
+      <div class="l-operatedButtons">
+        <div class="button-common">
+          <div class="button button-primary stop-button">stop</div>
+        </div>
+        <div class="button-common">
+          <div class="button button-warning sbin-button">start</div>
+        </div>
+      </div>
+      <div class="l-numbers numbers">
+        <div class="numbers-container">
+          <table class="numbers-table">
+            <tbody class="js-join"></tbody>
+          </table>
+        </div>
+        <footer class="l-footer footer">
+          <div class="footer-title">BingoGame</div>
+          <div class="footer-container">
+            <div class="footer-text" onclick="sample()">By junwatanabe72</div>
+            <div class="button button-secondary reset-button">reset</div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript" src="./function.js"></script>
+  </body>
+</html>
